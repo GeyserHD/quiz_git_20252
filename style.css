@@ -201,3 +201,13 @@ header nav a:hover {
 .reservas button:hover {
   background: #a4161a;
 }
+/* ===========================
+   Footer
+=========================== */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
