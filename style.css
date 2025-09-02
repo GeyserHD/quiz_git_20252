@@ -91,3 +91,50 @@ header nav a:hover {
 .hero .btn:hover {
   background: #ffbe0b;
 }
+/* ===========================
+   Menú
+=========================== */
+.menu {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.menu h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #d62828;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.menu-grid .item {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff8f0;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-grid .item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* ===========================
+   Promociones
+=========================== */
+.promociones {
+  padding: 60px 20px;
+  background: #ffbe0b;
+  text-align: center;
+  color: #333;
+}
+
+.promociones h2 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
