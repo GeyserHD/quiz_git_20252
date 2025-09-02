@@ -8,17 +8,19 @@
 </head>
 <body>
     <header>
-        <div class="logo">🍕 Delizia</div>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#menu">Menú</a></li>
-                <li><a href="#promociones">Promociones</a></li>
-                <li><a href="#opiniones">Opiniones</a></li>
-                <li><a href="#reservas">Reservas</a></li>
-                </ul>
-        </nav>
+    <div class="logo">🍕 Delizia</div>
+    <nav>
+        <div class="menu-toggle">☰</div>
+        <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#promos">Promociones</a></li>
+        <li><a href="#opiniones">Opiniones</a></li>
+        <li><a href="#contacto">Reservas</a></li>
+        </ul>
+    </nav>
     </header>
+
     <!-- hero section -->
     <section id="inicio" class="hero">
         <h1>Bienvenido a Delizia</h1>
@@ -62,5 +64,14 @@
         <p>Horario: Lunes a Domingo 5pm - 12am</p>
         <p>Síguenos en redes: Facebook | Instagram | TikTok</p>
     </footer>
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const navMenu = document.querySelector('nav ul');
+
+  toggle.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+  });
+</script>
+
 </body>
 </html>
